@@ -1,5 +1,15 @@
 # Ilya Rybakou
-Software Application Tester
+Software Application Tester, RS student 
+
+![CV Photo](/rsschool-cv/IMG_2564.jpg)
+
+`e-mail:`
+_obvldeet@gmail.com_
+`discord:`
+_pretty_
+
+
+Lifelong learner willing to dive into the world of Front-end web development, the world I'm familiar with professionally by working as a Software Application Tester for the past 3 years
 
 
 ### Hard Skills
@@ -13,6 +23,17 @@ Software Application Tester
 - Basic knowledge of git 
 - B2 English 
 - B2 Polish 
+
+### Code example
+
+`let myArray = [];
+function maxNum(myArray){
+    let max = myArray[0];
+    for (let num of myArray){
+        if (max <= num) max = num;   
+    }
+    return max;
+}`
 
 ### Soft Skills
 
