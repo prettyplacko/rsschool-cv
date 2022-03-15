@@ -1,7 +1,7 @@
 # Ilya Rybakou
 Software Application Tester, RS student 
 
-![CV Photo](/rsschool-cv/IMG_2564.jpg)
+![CV Photo](IMG_2564.jpg)
 
 `e-mail:`
 _obvldeet@gmail.com_
@@ -26,14 +26,16 @@ Lifelong learner willing to dive into the world of Front-end web development, th
 
 ### Code example
 
-`let myArray = [];
+```
+let myArray = [];
 function maxNum(myArray){
     let max = myArray[0];
     for (let num of myArray){
         if (max <= num) max = num;   
     }
     return max;
-}`
+}
+```
 
 ### Soft Skills
 
