@@ -1,7 +1,7 @@
 # Ilya Rybakou
 Software Application Tester, RS student 
 
-<div style="width:30%; height:30%">![CV Photo](IMG_2564.jpg)</div>
+<img src="IMG_2564.jpg" alt="CV Photo" width="30%" height="30%">
 
 `e-mail:`
 _obvldeet@gmail.com_
