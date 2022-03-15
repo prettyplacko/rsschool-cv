@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    padding-bottom: 1rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 65, 51);
+    padding: 50px 0;
+    color: #eee;  
+  } 
+
+img{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+  }
+
+pre code {
+    display: block;
+    background: none;
+    white-space: pre;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.first_section {
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+}
+    
+.contacts{
+    background-color: rgb(221, 221, 221);
+    padding: 1rem;
+    border-radius:0.5rem;
+  }
+  

@@ -4,9 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <img src="IMG_2564_cropped.jpg" alt="CV Photo" width="20%" height="20%">  
+    <h1>Ilya Rybakou</h1>
+    <p>Software Application Tester, RS student</p>
     
+</header>
+<hr>
+<section class="columns  first_section">
+    <div>
+        <h3>About me</h3>
+        <p>Lifelong learner willing to dive into the world of Front-end web development, the world I'm familiar with professionally by working as a Software Application Tester for the past 3 years</p>
+    </div>
+    <div class="contacts">
+        <h4>Contacts</h4>
+        <blockquote>e-mail: obvldeet@gmail.com</blockquote>
+        <blockquote>discord: pretty</blockquote>
+    </div>
+</section>
+
+
+
+<section class="columns">
+    <div>
+        <h3>Hard Skills</h3>
+        <ul>
+            <li>Knowledge of software testing types, methodologies, and techniques</li>
+            <li>Advanced knowledge of bug tracking tools(Jira)</li>
+            <li>Knowledge of dev tools</li>
+            <li>Basic knowledge of Cypress (e2e tests)</li>
+            <li>Basic knowledge of Postman</li>
+            <li>Basic knowledge of HTML and CSS</li>
+            <li>Basic knowledge of git</li>
+            <li>B2 English</li>
+            <li>B2 Polish</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Good communication skills</li>
+            <li>Good analytical skills</li>
+            <li>Critical Thinking</li>
+            <li>Team player</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Code example</h3>
+        <pre>
+            <code>
+                let myArray = [];
+                function maxNum(myArray){
+                    let max = myArray[0];
+                    for (let num of myArray){
+                        if (max <= num) max = num;
+                    }
+                    return max;
+                }
+            </code>
+        </pre>
+    </div>
+</section>
+
+<section class="columns">
+    <div>
+        <h3>Work experience</h3>
+        <p>
+            <b>2018-2019</b> - Localisation QA at Testronic, Warsaw
+        </p>
+        <p>
+            <b>2019-now</b> - Software Application Tester at BigPicture (formerly SoftwarePlant), Warsaw
+        </p>
+    </div>   
+    <div>
+        <h3>Education</h3>
+        <p>
+            <b>2017-2020</b> - Bachelor of Management, Warsaw University of Life Sciences
+        </p>   
+    </div>
+</section>
+
 </body>
 </html>
