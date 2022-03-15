@@ -1,1 +1,1 @@
-# rsschool-cv
+https://prettyplacko.github.io/rsschool-cv/cv
